@@ -25,7 +25,7 @@ public class StudentController {
 	@PostMapping
 	public Student addStudent(@RequestBody Student s) {
 		return service.addStudent(s);
-		System.err.println(yash);
+		
 	}
 	@GetMapping("{id}")
 	public Student getStudent(@PathVariable int id) {
